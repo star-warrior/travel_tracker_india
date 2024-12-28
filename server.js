@@ -3,7 +3,9 @@ import path from 'path';
 import pg from 'pg';
 import bodyParser from 'body-parser';
 import { name } from 'ejs';
+import env from 'dotenv';
 const app = express();
+env.config();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
