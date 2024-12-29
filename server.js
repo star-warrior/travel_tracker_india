@@ -14,11 +14,12 @@ app.use(bodyParser.json());
 const PORT = process.env.PORT || 3000;
 
 const db = new pg.Client({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'travel_india',
-    password: 'postgres16',
-    port: 5432,
+    user: process.env.POSTGRES_USER,
+    host: process.env.POSTGRES_PASSWORD,
+    database: process.env.POSTGRES_DB,
+    password: process.env.POSTGRES_PASSWORD,
+    port: process.env.POSTGRES_PORT,
+    database_url: process.env.DATABASE_URL
 })
 db.connect()
 
