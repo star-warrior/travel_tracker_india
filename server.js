@@ -17,7 +17,7 @@ const db = new pg.Client({
     // database: 'travel_india',
     // password: 'postgres16',
     // port: 5432,
-    database_url: process.env.DATABASE_URL,
+    connectionString: process.env.DATABASE_URL,
 })
 db.connect()
 
