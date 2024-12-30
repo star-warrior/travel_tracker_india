@@ -12,11 +12,12 @@ app.use(bodyParser.json());
 const PORT = process.env.PORT || 3000;
 
 const db = new pg.Client({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'travel_india',
-    password: 'postgres16',
-    port: 5432,
+    // user: 'postgres',
+    // host: 'localhost',
+    // database: 'travel_india',
+    // password: 'postgres16',
+    // port: 5432,
+    database_url: process.env.DATABASE_URL,
 })
 db.connect()
 
@@ -93,11 +94,11 @@ app.post('/addByClick', async (req, res) => {
 
     const check = await db.query('SELECT EXISTS(SELECT state_code FROM visited_states WHERE state_code = $1)', [state])
 
-    if(check.rows[0].exists) {
+    if (check.rows[0].exists) {
         try {
             db.query('DELETE FROM visited_states WHERE state_code = $1', [state]);
         } catch (err) {
-          console.log(err);
+            console.log(err);
         }
     } else {
         try {
