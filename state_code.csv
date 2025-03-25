@@ -1,37 +1,37 @@
-state_code,state_name
-INAN,Andaman and Nicobar
-INAP,Andhra Pradesh
-INAR,Arunachal Pradesh
-INAS,Assam
-INBR,Bihar
-INCH,Chandigarh
-INCT,Chhattisgarh
-INDH,Dadra and Nagar Haveli and Daman and Diu
-INDL,Delhi
-INGA,Goa
-INGJ,Gujarat
-INHP,Himachal Pradesh
-INHR,Haryana
-INJH,Jharkhand
-INJK,Jammu and Kashmir
-INKA,Karnataka
-INKL,Kerala
-INLA,Ladakh
-INLD,Lakshadweep
-INMH,Maharashtra
-INML,Meghalaya
-INMN,Manipur
-INMP,Madhya Pradesh
-INMZ,Mizoram
-INNL,Nagaland
-INOR,Orissa
-INPB,Punjab
-INPY,Puducherry
-INRJ,Rajasthan
-INSK,Sikkim
-INTG,Telangana
-INTN,Tamil Nadu
-INTR,Tripura
-INUP,Uttar Pradesh
-INUT,Uttaranchal
-INWB,West Bengal
+id,state_code,state_name
+1,INAN,Andaman and Nicobar
+2,INAP,Andhra Pradesh
+3,INAR,Arunachal Pradesh
+4,INAS,Assam
+5,INBR,Bihar
+6,INCH,Chandigarh
+7,INCT,Chhattisgarh
+8,INDH,Dadra and Nagar Haveli and Daman and Diu
+9,INDL,Delhi
+10,INGA,Goa
+11,INGJ,Gujarat
+12,INHP,Himachal Pradesh
+13,INHR,Haryana
+14,INJH,Jharkhand
+15,INJK,Jammu and Kashmir
+16,INKA,Karnataka
+17,INKL,Kerala
+18,INLA,Ladakh
+19,INLD,Lakshadweep
+20,INMH,Maharashtra
+21,INML,Meghalaya
+22,INMN,Manipur
+23,INMP,Madhya Pradesh
+24,INMZ,Mizoram
+25,INNL,Nagaland
+26,INOR,Orissa
+27,INPB,Punjab
+28,INPY,Puducherry
+29,INRJ,Rajasthan
+30,INSK,Sikkim
+31,INTG,Telangana
+32,INTN,Tamil Nadu
+33,INTR,Tripura
+34,INUP,Uttar Pradesh
+35,INUT,Uttaranchal
+36,INWB,West Bengal
